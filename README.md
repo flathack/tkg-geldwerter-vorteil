@@ -18,4 +18,8 @@ GitHub Pages veröffentlicht den Branch `main` aus dem Repository-Stammverzeichn
 
 ## Herkunft
 
-Übernommen aus `flathack/flathack.github.io`, ehemaliger Pfad `guides/firmenwagenrechner/`. Eigenständige Business-Oberfläche mit lokalem CSS und Systemschriften. Keine Abhängigkeit vom Flathack-Design oder dessen Theme-Einstellungen.
+Übernommen aus `flathack/flathack.github.io`, ehemaliger Pfad `guides/firmenwagenrechner/`. Eigenständige TKG-Oberfläche auf Basis lokal eingebundener Flathack-Design-Tokens. Zehn wählbare Themes, standardmäßig Cloud, einschließlich Matrix und Guild Wars 2. Die Auswahl wird lokal gespeichert; Animationen lassen sich abschalten und respektieren reduzierte Bewegung. TKG-Branding und Rechnerlogik bleiben eigenständig.
+
+## Standalone aktualisieren
+
+Nach Änderungen an Oberfläche oder Gestaltung `python scripts/build-standalone.py` ausführen. Der Generator bettet CSS, Fonts, Texturen und Theme-Scripts ein; nur PDF.js benötigt weiterhin eine Internetverbindung.
